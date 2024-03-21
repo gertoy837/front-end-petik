@@ -6,7 +6,7 @@
  */
 const users = [
   { 
-    name: "Samsul",
+    name: "Samsul Sugandi",
     age: 20,
     major: "Sistem Informasi",
   },
