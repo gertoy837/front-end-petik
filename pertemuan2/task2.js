@@ -20,7 +20,7 @@ const download = () => {
   });
 };
 
-async function main() {
+const main = async () => {
   try {
     console.log(await download());
     showDownload(result);
