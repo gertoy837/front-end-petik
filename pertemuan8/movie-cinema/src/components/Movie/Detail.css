@@ -1,0 +1,58 @@
+/* Small Screen */
+.movie1 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 1rem;
+    font-style: 2rem;
+    color: #4361ee;
+}
+
+img {
+    border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-style: 2rem;
+}
+
+p {
+    color: #64748b;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* Medium Screen */
+@media screen and (min-width: 768px) {
+    .movie1 {
+        flex-basis: 50%;
+        display: flex;
+        margin: 2rem;
+    }
+
+    .title {
+        text-align: left;
+        margin-left: 2rem;
+    }
+
+    .year {
+        text-align: justify;
+        margin-left: 2rem;
+    }
+}
+
+/* Large Screen */
+@media screen and (min-width: 992px) {
+    .movie {
+        flex-basis: 25%;
+        padding: 1rem;
+    }
+}
