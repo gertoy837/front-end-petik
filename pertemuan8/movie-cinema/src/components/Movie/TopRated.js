@@ -12,8 +12,8 @@ const Movie = (props) => {
       </h3>
       <p className="year">{year}</p>
       <p className="genre">{genre}</p>
-      <p className="genre">Reated : {average}</p>
-      <p className="genre">Ranting : {count}</p>
+      <p className="year">Reated : {average}</p>
+      <p className="year">Ranting : {count}</p>
     </div>
   );
 };
