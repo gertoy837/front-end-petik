@@ -7,7 +7,7 @@ const Hero = () => {
       <Row>
         <Col md={8} className="text-md-left">
           <h2 className="text-primary">Title</h2>
-          <h3 className="text-primary">Genre : </h3>
+          <h3 className="text-primary ">Genre : </h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
             corrupti porro possimus quas quibusdam temporibus ea! Vel distinctio
