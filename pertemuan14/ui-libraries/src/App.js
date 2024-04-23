@@ -12,6 +12,8 @@ import "./App.css";
 import AddCourse from './components/course/AddCourse';
 import TableCourse from './components/course/TableCourse';
 import NotFound from './components/NotFound';
+import TableTrainer from './components/trainer/TableTrainer';
+import AddTrainer from './components/trainer/AddTrainer';
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
         <Route path="/course/:id" element={<DetailCoursePage />} />
         <Route path="/course/add" element={<AddCourse />} />
         <Route path="/table-course" element={<TableCourse />} />
+        <Route path="/trainer/add" element={<AddTrainer />} />
+        <Route path="/table-trainer" element={<TableTrainer />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>
       </BrowserRouter>

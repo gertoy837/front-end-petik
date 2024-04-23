@@ -13,6 +13,9 @@ const Sidebar = () => {
           <li>
             <NavLink to={'/table-course'}>Course</NavLink>
           </li>
+          <li>
+            <NavLink to={'/table-trainer'}>Trainer</NavLink>
+          </li>
         </ul>
       </aside>
     </div>
